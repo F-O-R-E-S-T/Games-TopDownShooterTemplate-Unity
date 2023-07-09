@@ -1,0 +1,471 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+F:/Repos/rpg/TopDownShooterTemplate
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+2233
+Successfully changed project path to: F:/Repos/rpg/TopDownShooterTemplate
+F:/Repos/rpg/TopDownShooterTemplate
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23368] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 2816064442 [EditorId] 2816064442 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-60239FP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23368] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 2816064442 [EditorId] 2816064442 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-60239FP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 103.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Repos/rpg/TopDownShooterTemplate/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 XT (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   31.0.12029.10015
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007860 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 104.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.701 seconds
+Domain Reload Profiling:
+	ReloadAssembly (702ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (486ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (115ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004243 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 86.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.115 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1116ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (903ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (559ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (356ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (228.9 KB). Loaded Objects now: 4536.
+Memory consumption went from 156.3 MB to 156.1 MB.
+Total: 3.542800 ms (FindLiveObjects: 0.320900 ms CreateObjectMapping: 0.121400 ms MarkObjects: 2.964100 ms  DeleteObjects: 0.135600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34943.036887 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters
+  artifactKey: Guid(81a70e0f1792ce44399b9e8dcd2d1038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters using Guid(81a70e0f1792ce44399b9e8dcd2d1038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4e8bb38b6984423733af60daef09f6') in 0.012927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063044 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Shadow.png
+  artifactKey: Guid(565354302fddf49479c5c644e193329d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Shadow.png using Guid(565354302fddf49479c5c644e193329d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad7f25e1e370e709176c0dfb2448424') in 0.110639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.666173 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/BlueNinja
+  artifactKey: Guid(52fb263e7e5529640860f2907ee6d7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/BlueNinja using Guid(52fb263e7e5529640860f2907ee6d7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75ce5d19b582235715ef6167345c1b0') in 0.008553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059491 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/BlueNinja/Faceset.png
+  artifactKey: Guid(a34c6529f3c86f541bc3e06210c90991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/BlueNinja/Faceset.png using Guid(a34c6529f3c86f541bc3e06210c90991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8e7353d58a83be8d7c6e5f56904b6e') in 0.010963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.046827 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Master
+  artifactKey: Guid(fd3069f337de81e4b99c650fa82597f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Master using Guid(fd3069f337de81e4b99c650fa82597f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2417ef50e7b577187db0690911e8477') in 0.007821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050186 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Master/Faceset.png
+  artifactKey: Guid(5e1e2f1bf698c1c40842eaf36106c0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Master/Faceset.png using Guid(5e1e2f1bf698c1c40842eaf36106c0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac20f0d898c9bffca68af1c0e3ec595f') in 0.011162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.256676 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Boy
+  artifactKey: Guid(7cdf414ab3963e143a9fad6814946167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Boy using Guid(7cdf414ab3963e143a9fad6814946167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97d56645a5ff310ee39fcecfcb57efa') in 0.007712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025725 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Boy/Faceset.png
+  artifactKey: Guid(fd689d0cdd7fff74eb481be8cbe06e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Boy/Faceset.png using Guid(fd689d0cdd7fff74eb481be8cbe06e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323524b22a3336cc07cd6c2b133e024f') in 0.010260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.169785 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/BlueSamurai
+  artifactKey: Guid(841999b2c451acd41b3d00d144f3f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/BlueSamurai using Guid(841999b2c451acd41b3d00d144f3f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6faf9b5a3de78e650d8a309f3825700f') in 0.006793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058837 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/BlueSamurai/Faceset.png
+  artifactKey: Guid(ceadb7f7d524bd34b8e9e86eb07c1be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/BlueSamurai/Faceset.png using Guid(ceadb7f7d524bd34b8e9e86eb07c1be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615b51aa6029ddeeccf5d955fbe7edc7') in 0.009947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.586328 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/RedNinja
+  artifactKey: Guid(483515dd57941b440a45ecb114bd4ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/RedNinja using Guid(483515dd57941b440a45ecb114bd4ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593d6d956b17ece621b0409d7a27c3d1') in 0.007653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.088995 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/RedNinja/Faceset.png
+  artifactKey: Guid(463b6fc4ce0b8ae42a1b935cea8f4034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/RedNinja/Faceset.png using Guid(463b6fc4ce0b8ae42a1b935cea8f4034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0556117af68ea0ad0dfd117cb7dca42b') in 0.011685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.074390 seconds.
+  path: Assets/NinjaAdventure/Sounds
+  artifactKey: Guid(62432a97a59eb83438f5cb0b72f8cb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Sounds using Guid(62432a97a59eb83438f5cb0b72f8cb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da580912b7fd2e6b9c514539067426e6') in 0.006785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.392461 seconds.
+  path: Assets/NinjaAdventure/Actor/Monsters
+  artifactKey: Guid(c235af0dbeeb8994da1a37d58c5f6122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Monsters using Guid(c235af0dbeeb8994da1a37d58c5f6122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53785e5b7cdbb49890f499807fe9fab7') in 0.006481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.986778 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/BlueNinja/SeparateAnim
+  artifactKey: Guid(97e801c810b68104096188831c9da1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/BlueNinja/SeparateAnim using Guid(97e801c810b68104096188831c9da1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edb0dcbd4f20dfd0b1c0c0973e323fa') in 0.006384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047063 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/BlueNinja/SeparateAnim/Dead.png
+  artifactKey: Guid(f9d811ad44bc77542971df1ac1475603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/BlueNinja/SeparateAnim/Dead.png using Guid(f9d811ad44bc77542971df1ac1475603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5091329285d8ded28844591bfd0490') in 0.013349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/BlueNinja/SeparateAnim/Special1.png
+  artifactKey: Guid(0cd1a8a50ef1c2841be56c429b6278a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/BlueNinja/SeparateAnim/Special1.png using Guid(0cd1a8a50ef1c2841be56c429b6278a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544c0801925ed58b30133b1c37218d56') in 0.012706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/BlueNinja/SeparateAnim/Walk.png
+  artifactKey: Guid(34c669d35e38574459b43bf7ab5c35bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/BlueNinja/SeparateAnim/Walk.png using Guid(34c669d35e38574459b43bf7ab5c35bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82be1fa3caf33da09b4b7d088d3eeee3') in 0.012974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/BlueNinja/SeparateAnim/Special2.png
+  artifactKey: Guid(38b7983c336e4ee47b0d9329f8f62bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/BlueNinja/SeparateAnim/Special2.png using Guid(38b7983c336e4ee47b0d9329f8f62bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d15745644fa27f73c6c3cefd1041c4') in 0.011778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.246152 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/BlueNinja/SeparateAnim/Idle.png
+  artifactKey: Guid(f3e62cc418e9ddc4ea460873be5c74c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/BlueNinja/SeparateAnim/Idle.png using Guid(f3e62cc418e9ddc4ea460873be5c74c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea601cdb0ee650d08d3d56bd4fb4ce0a') in 0.009733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.344852 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/BlueNinja/SeparateAnim/Idle.png
+  artifactKey: Guid(f3e62cc418e9ddc4ea460873be5c74c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/BlueNinja/SeparateAnim/Idle.png using Guid(f3e62cc418e9ddc4ea460873be5c74c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d1e7e3441d1f657854089a2b27aa4b') in 0.012097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.535993 seconds.
+  path: Assets/NinjaAdventure/Actor/Boss/DemonCyclop/Idle.png
+  artifactKey: Guid(03893d57c603873428a4cb4bad47d747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Boss/DemonCyclop/Idle.png using Guid(03893d57c603873428a4cb4bad47d747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc58786e7919f2d047a343552f127538') in 0.013725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Villager2/SeparateAnim/Idle.png
+  artifactKey: Guid(3ec4f9ef80ed1ab49870ddcd3a3fb02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Villager2/SeparateAnim/Idle.png using Guid(3ec4f9ef80ed1ab49870ddcd3a3fb02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0cd61d7e7db6675c0a2ee66b5d1cd17') in 0.014046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/GreenNinja/SeparateAnim/Idle.png
+  artifactKey: Guid(a9a0946b0a031dd49888cdf03612657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/GreenNinja/SeparateAnim/Idle.png using Guid(a9a0946b0a031dd49888cdf03612657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5741deb0483be61adf0c28d0f384ce0e') in 0.012703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Knight/SeparateAnim/Idle.png
+  artifactKey: Guid(6508ca94f1250544c998985fe019183a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Knight/SeparateAnim/Idle.png using Guid(6508ca94f1250544c998985fe019183a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68e1353d99f3bc77757cf39ffa7a992') in 0.011789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NinjaAdventure/Actor/Boss/GiantSpirit/Idle.png
+  artifactKey: Guid(776d353713e828941b1b8fcd13eaaf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Boss/GiantSpirit/Idle.png using Guid(776d353713e828941b1b8fcd13eaaf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46089f7cdc1f8864aab5a4800abe710') in 0.012648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NinjaAdventure/Actor/Boss/GiantRacoon/IdlePreview.gif
+  artifactKey: Guid(c4964ba344eca4842aa674f76a496e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Boss/GiantRacoon/IdlePreview.gif using Guid(c4964ba344eca4842aa674f76a496e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b226b62230840fc9c2aa9685bfb0e290') in 0.017996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/MaskFrog/SeparateAnim/Idle.png
+  artifactKey: Guid(5eb53cf349a03434bbd4d4e57ef776c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/MaskFrog/SeparateAnim/Idle.png using Guid(5eb53cf349a03434bbd4d4e57ef776c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c748b183f9171287d92896ccd62ef23c') in 0.011849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Villager4/SeparateAnim/Idle.png
+  artifactKey: Guid(ccc027397dbd0fa41ac17969f2d15b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Villager4/SeparateAnim/Idle.png using Guid(ccc027397dbd0fa41ac17969f2d15b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0bed850edcdf8f763170012f96c05e') in 0.012663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/OldMan3/SeparateAnim/Idle.png
+  artifactKey: Guid(803e2db73a183de489647f0e850c14f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/OldMan3/SeparateAnim/Idle.png using Guid(803e2db73a183de489647f0e850c14f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bf1cdeca745481712822f74fe562dd') in 0.012655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/BlueSamurai/SeparateAnim/Idle.png
+  artifactKey: Guid(f5c5c541236d0c744afdf3036a807634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/BlueSamurai/SeparateAnim/Idle.png using Guid(f5c5c541236d0c744afdf3036a807634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d717cf5163000a5b6fdab5a1ec9de7f') in 0.012508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/RedSamurai/SeparateAnim/Idle.png
+  artifactKey: Guid(fb536de49b6140e44ac3de131673f5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/RedSamurai/SeparateAnim/Idle.png using Guid(fb536de49b6140e44ac3de131673f5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ff23635830d4cf79140d2a542c69f9') in 0.011436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NinjaAdventure/Actor/Boss/GiantFrog/IdlePreview.gif
+  artifactKey: Guid(5cad326be798bfe499685deff3a887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Boss/GiantFrog/IdlePreview.gif using Guid(5cad326be798bfe499685deff3a887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1db79375f285c364a46d5a4bdb7478f') in 0.007145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Villager3/SeparateAnim/Idle.png
+  artifactKey: Guid(0e5ec8febe80b3042b462799cbd65040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Villager3/SeparateAnim/Idle.png using Guid(0e5ec8febe80b3042b462799cbd65040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d8d19a18a80d3cf2f094893499533a') in 0.010816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Woman/SeparateAnim/Idle.png
+  artifactKey: Guid(754ede52650cabe4b8ea545ca9507987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Woman/SeparateAnim/Idle.png using Guid(754ede52650cabe4b8ea545ca9507987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3feb47f822eda6f4e029dcf29a22956') in 0.012303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/EskimoNinja/SeparateAnim/Idle.png
+  artifactKey: Guid(8c365a39d0269c3429c445d1b0f84883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/EskimoNinja/SeparateAnim/Idle.png using Guid(8c365a39d0269c3429c445d1b0f84883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27cbabfcaffbbec7032601b684abf1f4') in 0.012437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/GrayNinja/SeparateAnim/Idle.png
+  artifactKey: Guid(41d7a773d5a787f4d989428cab2ea6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/GrayNinja/SeparateAnim/Idle.png using Guid(41d7a773d5a787f4d989428cab2ea6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5806ef0e8df94266ab11ed9b8afa39') in 0.012038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NinjaAdventure/Actor/Boss/DemonCyclop/IdlePreview.gif
+  artifactKey: Guid(194f880dc4a3d154e8345d8292f5a376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Boss/DemonCyclop/IdlePreview.gif using Guid(194f880dc4a3d154e8345d8292f5a376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9350464b55939eb2229684532541d9d') in 0.012852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NinjaAdventure/Actor/Boss/GiantFrog2/Idle.png
+  artifactKey: Guid(a5a174b03194cfa48af066c7d7eb84e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Boss/GiantFrog2/Idle.png using Guid(a5a174b03194cfa48af066c7d7eb84e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3627b89aa4dc8b3c46127fa6560c97fb') in 0.012761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NinjaAdventure/Actor/Boss/GiantRacoon/Idle.png
+  artifactKey: Guid(7b336231616650b4dbb48baa8a10ffa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Boss/GiantRacoon/Idle.png using Guid(7b336231616650b4dbb48baa8a10ffa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31c7b7c8075d555ab555ddf74618da4') in 0.013941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Eskimo/SeparateAnim/Idle.png
+  artifactKey: Guid(8f929160b660bb041a7bb23707beb8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Eskimo/SeparateAnim/Idle.png using Guid(8f929160b660bb041a7bb23707beb8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9cc1376f8c5d4b170531c08ba1ddf0') in 0.011309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Villager/SeparateAnim/Idle.png
+  artifactKey: Guid(89da338794cd8d342a3e4538114b0bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Villager/SeparateAnim/Idle.png using Guid(89da338794cd8d342a3e4538114b0bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447d36d91e147c78fc25538a77d51e26') in 0.012648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NinjaAdventure/Actor/Boss/GiantSpirit/IdlePreview.gif
+  artifactKey: Guid(3e8360a0c6168ae4dac44a358dca899e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Boss/GiantSpirit/IdlePreview.gif using Guid(3e8360a0c6168ae4dac44a358dca899e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4992905cac85eb3ab155c85ac0df086') in 0.012402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/MaskedNinja/SeparateAnim/Idle.png
+  artifactKey: Guid(9e9e8d2423478cf49935884decf7a0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/MaskedNinja/SeparateAnim/Idle.png using Guid(9e9e8d2423478cf49935884decf7a0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5437a4a4064ffb69f15b8c0b1d1f8b1d') in 0.014078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/RedNinja2/SeparateAnim/Idle.png
+  artifactKey: Guid(79154ef915c33c247b98bd4163f7045b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/RedNinja2/SeparateAnim/Idle.png using Guid(79154ef915c33c247b98bd4163f7045b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fa1217d1e86a9a1604ceceb826529e') in 0.013222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Noble/SeparateAnim/Idle.png
+  artifactKey: Guid(6f9ef573ee62b1f468bfba58f026722b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Noble/SeparateAnim/Idle.png using Guid(6f9ef573ee62b1f468bfba58f026722b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c42d924594dd8e8429410896935982') in 0.013052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Samurai/SeparateAnim/Idle.png
+  artifactKey: Guid(4de23bef673b33747ae231b03828bc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Samurai/SeparateAnim/Idle.png using Guid(4de23bef673b33747ae231b03828bc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e24c78b63e10dc81cd7acd981e723dc') in 0.011465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/OldMan/SeparateAnim/Idle.png
+  artifactKey: Guid(d9b59fe66f05c834cb1c41206560dc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/OldMan/SeparateAnim/Idle.png using Guid(d9b59fe66f05c834cb1c41206560dc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d5010bbfc409fb6c3ddc37206a42ca') in 0.010809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Princess/SeparateAnim/Idle.png
+  artifactKey: Guid(49dc8137473d4644e889521bad201716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Princess/SeparateAnim/Idle.png using Guid(49dc8137473d4644e889521bad201716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3450f6826aadda5f74f07d91ff24a222') in 0.011168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/RedNinja/SeparateAnim/Idle.png
+  artifactKey: Guid(3ac0c08352f814341af1dff5d9757ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/RedNinja/SeparateAnim/Idle.png using Guid(3ac0c08352f814341af1dff5d9757ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876b31c2697d02f434396415b8fea659') in 0.010812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Caveman2/SeparateAnim/Idle.png
+  artifactKey: Guid(a4db9c7869f5aef4495950f222ed88c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Caveman2/SeparateAnim/Idle.png using Guid(a4db9c7869f5aef4495950f222ed88c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399ee4cd25ffde0d4aeb37683c720bf4') in 0.014296 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

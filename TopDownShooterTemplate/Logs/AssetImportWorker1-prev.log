@@ -1,0 +1,549 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+F:/Repos/rpg/TopDownShooterTemplate
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+2233
+Successfully changed project path to: F:/Repos/rpg/TopDownShooterTemplate
+F:/Repos/rpg/TopDownShooterTemplate
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11456] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 79114754 [EditorId] 79114754 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-60239FP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11456] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 79114754 [EditorId] 79114754 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-60239FP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 90.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Repos/rpg/TopDownShooterTemplate/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 XT (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   31.0.12029.10015
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005554 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 88.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.567 seconds
+Domain Reload Profiling:
+	ReloadAssembly (567ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (408ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (84ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003806 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 88.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.132 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1132ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (940ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (593ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (386ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (228.9 KB). Loaded Objects now: 4536.
+Memory consumption went from 156.3 MB to 156.1 MB.
+Total: 3.810100 ms (FindLiveObjects: 0.323800 ms CreateObjectMapping: 0.104700 ms MarkObjects: 3.227000 ms  DeleteObjects: 0.153400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34929.861409 seconds.
+  path: Assets/NinjaAdventure/FX/AllPreview.png
+  artifactKey: Guid(a33e2c90030848b46930eaff8ca7708c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/FX/AllPreview.png using Guid(a33e2c90030848b46930eaff8ca7708c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ef14b91b83e449e674334448b6d2e2') in 0.160825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/EskimoNinja/SeparateAnim/Attack.png
+  artifactKey: Guid(0fed941884bd3264b8b097778d24f3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/EskimoNinja/SeparateAnim/Attack.png using Guid(0fed941884bd3264b8b097778d24f3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b9c3379f7f5a2ff75629e358fcb1c1') in 0.011962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/EggBoy/SeparateAnim/Attack.png
+  artifactKey: Guid(896a56eaccbed7a4d98b24d5cf57de30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/EggBoy/SeparateAnim/Attack.png using Guid(896a56eaccbed7a4d98b24d5cf57de30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd279a3ea4779f2e076877b885218d304') in 0.011165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy.png
+  artifactKey: Guid(678095381d851334fb550c5032ba1a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy.png using Guid(678095381d851334fb550c5032ba1a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18945c8f968faf89cc4dc0e64f8ab8d6') in 0.045620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NinjaAdventure/Items/Treasure/BigTreasureChest.png
+  artifactKey: Guid(5c127b78661ffeb4da7dd925a2cfdcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Items/Treasure/BigTreasureChest.png using Guid(5c127b78661ffeb4da7dd925a2cfdcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b7a3d5bf2fe5b9578fea905a1bc6dd') in 0.020980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@2x.png
+  artifactKey: Guid(25096ce515c063c48a2bd6b108c95912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@2x.png using Guid(25096ce515c063c48a2bd6b108c95912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b506d9e8ce72450ec67f56c7311bcd') in 0.038179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@3x.png
+  artifactKey: Guid(dcea51d6065d64246aeec467afeff684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@3x.png using Guid(dcea51d6065d64246aeec467afeff684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831f7f90d1f9201e116358cd681b9837') in 0.047487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence.png
+  artifactKey: Guid(e92fc44f12c21dd44a49e390f39f7ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence.png using Guid(e92fc44f12c21dd44a49e390f39f7ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c33a7853a530025a287827d8b1b48c') in 0.039620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Boy/SeparateAnim/Attack.png
+  artifactKey: Guid(40f09f66c586c4644888341ab4540954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Boy/SeparateAnim/Attack.png using Guid(40f09f66c586c4644888341ab4540954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593304807697cc975e0744373a14c02e') in 0.012239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Villager2/SeparateAnim/Attack.png
+  artifactKey: Guid(0f3d9c1a2ef86ce4ba3bc0db570e7533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Villager2/SeparateAnim/Attack.png using Guid(0f3d9c1a2ef86ce4ba3bc0db570e7533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05b0fd0f3cea449b0404f32d29d579c') in 0.010682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode.png
+  artifactKey: Guid(d4d64a6cd9624c34a815dd79fb2a20a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode.png using Guid(d4d64a6cd9624c34a815dd79fb2a20a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc7c22bc3d70537ebbb1c517417b248') in 0.035303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/AllPreview2.png
+  artifactKey: Guid(9b5dd4c605b10ed40809193038842a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/AllPreview2.png using Guid(9b5dd4c605b10ed40809193038842a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498f111841a4d4040c955358c9c67d97') in 0.017593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Villager3/SeparateAnim/Attack.png
+  artifactKey: Guid(2018f5f6924089148976b3d6609befa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Villager3/SeparateAnim/Attack.png using Guid(2018f5f6924089148976b3d6609befa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d401573542a31306d732e105ef327f') in 0.012175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/MaskedNinja/SeparateAnim/Attack.png
+  artifactKey: Guid(31d8c46909480d048902b797e3712e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/MaskedNinja/SeparateAnim/Attack.png using Guid(31d8c46909480d048902b797e3712e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df075cfd3d2d0ab3b6c4bb76c769909') in 0.010306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Lion/SeparateAnim/Attack.png
+  artifactKey: Guid(2ea49d7fa4a4a514da7c37778eb2ac91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Lion/SeparateAnim/Attack.png using Guid(2ea49d7fa4a4a514da7c37778eb2ac91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c204cb93312b43f4b7992788c606153') in 0.012791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@2x.png
+  artifactKey: Guid(5d52b20f865aff242bfcb08c3b6f61a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@2x.png using Guid(5d52b20f865aff242bfcb08c3b6f61a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34ea862b3ef7c872df4310f45c634f7') in 0.029884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@3x.png
+  artifactKey: Guid(17fa84703485d314b8d6b5216987d4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@3x.png using Guid(17fa84703485d314b8d6b5216987d4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b677aeebbdc6d255f3780d36fdc07231') in 0.035310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/RedNinja2/SeparateAnim/Attack.png
+  artifactKey: Guid(f07a6d18fa8b8644d9ad710ae0057e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/RedNinja2/SeparateAnim/Attack.png using Guid(f07a6d18fa8b8644d9ad710ae0057e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ecacffb7970080dc4f4096f4fb21bef') in 0.012445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/NinjaAdventure/FX/Projectile/BigShuriken.png
+  artifactKey: Guid(05dd212d900eaaf4fbd01384b3608345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/FX/Projectile/BigShuriken.png using Guid(05dd212d900eaaf4fbd01384b3608345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3981fa0880069324f21245cc5bc7083') in 0.013386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/AllPreview.png
+  artifactKey: Guid(d448f3c7aaf852d4e82dffff9edb08d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/AllPreview.png using Guid(d448f3c7aaf852d4e82dffff9edb08d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a44705f27f51343406cffd438fcfa0d') in 0.018279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NinjaAdventure/FX/Particle/Clouds.png
+  artifactKey: Guid(2586f390003c0ab49bc37121bd6dc1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/FX/Particle/Clouds.png using Guid(2586f390003c0ab49bc37121bd6dc1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be22dff74061cf7330478bde8f39c30') in 0.017591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NinjaAdventure/Actor/Boss/GiantFrog2/ChargeAttackPreview.gif
+  artifactKey: Guid(8fb80fdfc3910644ab2abbd9135df0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Boss/GiantFrog2/ChargeAttackPreview.gif using Guid(8fb80fdfc3910644ab2abbd9135df0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956e5bebc2fffd1995d8b8daf2bb32e5') in 0.011921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/DarkNinja/SeparateAnim/Attack.png
+  artifactKey: Guid(87b94127cdd0f8f4c8e837df10fa7ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/DarkNinja/SeparateAnim/Attack.png using Guid(87b94127cdd0f8f4c8e837df10fa7ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a72039b283942107d77c168a4f5ef3') in 0.010880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NinjaAdventure/Items/Weapons/Bow/Arrow.png
+  artifactKey: Guid(e857aaea221a3b24ebbf27dd6e40eeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Items/Weapons/Bow/Arrow.png using Guid(e857aaea221a3b24ebbf27dd6e40eeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3564b3642e62ad5e210b295ec3c4a08') in 0.006422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/OldMan/SeparateAnim/Attack.png
+  artifactKey: Guid(26bdcdc21636dc54687c5941ac79b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/OldMan/SeparateAnim/Attack.png using Guid(26bdcdc21636dc54687c5941ac79b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3284c7c85de348cafef5ba8e46cdfda3') in 0.011978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Villager/SeparateAnim/Attack.png
+  artifactKey: Guid(964e6ad2a92a5574dbc9b29751ab0800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Villager/SeparateAnim/Attack.png using Guid(964e6ad2a92a5574dbc9b29751ab0800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3b7dfda5c1a5c0d234a5188ab91dc5') in 0.010501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NinjaAdventure/FX/Projectile/BigKunai.png
+  artifactKey: Guid(d716619311483634cb5db46004802f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/FX/Projectile/BigKunai.png using Guid(d716619311483634cb5db46004802f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad4c51a9a828c07b5a01de0de7aeee0') in 0.013203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Woman/SeparateAnim/Attack.png
+  artifactKey: Guid(d695031601acdf6418c2746edcefcfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Woman/SeparateAnim/Attack.png using Guid(d695031601acdf6418c2746edcefcfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e39f7f3f3e778400f6369059b230bd9') in 0.013194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Caveman/SeparateAnim/Attack.png
+  artifactKey: Guid(33d1ca5829b9f4d42b28450357749ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Caveman/SeparateAnim/Attack.png using Guid(33d1ca5829b9f4d42b28450357749ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2209e59b718d66bc51dc6ed5fb99f58') in 0.011737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Inspector/SeparateAnim/Attack.png
+  artifactKey: Guid(f7fdc72e78631db46a7c65c7c3fc6896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Inspector/SeparateAnim/Attack.png using Guid(f7fdc72e78631db46a7c65c7c3fc6896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7059c9cd32bad3a3552a1fcc61e8980') in 0.011301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy@2x.png
+  artifactKey: Guid(6cc5103edc9f0dd4f80e8274c73dfeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy@2x.png using Guid(6cc5103edc9f0dd4f80e8274c73dfeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408f09d02fcbeed5562aec99025044d1') in 0.055802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create Bones.png
+  artifactKey: Guid(0e5ae7fe3a07e88429a3e90897c6ab82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create Bones.png using Guid(0e5ae7fe3a07e88429a3e90897c6ab82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994bd934a22ea8747aff4950113f05e2') in 0.030335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/NinjaAdventure/FX/Projectile/CanonBall.png
+  artifactKey: Guid(843e46089804f8d48b79e3f552cf4a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/FX/Projectile/CanonBall.png using Guid(843e46089804f8d48b79e3f552cf4a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fda0af6f9e1aca581b88522ade2c0f') in 0.012683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@2x.png
+  artifactKey: Guid(7395bf0bc3cc40e4ab2dda5ec6832261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@2x.png using Guid(7395bf0bc3cc40e4ab2dda5ec6832261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f865d46f054acd24bc2bf8dfd54945eb') in 0.040834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Skeleton/SeparateAnim/Attack.png
+  artifactKey: Guid(afd436b9c83721c45820d29fa610e152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Skeleton/SeparateAnim/Attack.png using Guid(afd436b9c83721c45820d29fa610e152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c7667aad32cf7cef6c08d49ddd0bb6') in 0.011439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones.png
+  artifactKey: Guid(7b86a539750e1a44ca7ec5b7f690babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones.png using Guid(7b86a539750e1a44ca7ec5b7f690babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2762789c1f3139db8457f281b96856') in 0.043282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NinjaAdventure/FX/Particle/AllPreview.png
+  artifactKey: Guid(17df1e20074e84f41a14e94d7458aa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/FX/Particle/AllPreview.png using Guid(17df1e20074e84f41a14e94d7458aa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee50403ac5a1adc2daeef4fd5abe85a') in 0.014641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/GreenNinja/SeparateAnim/Attack.png
+  artifactKey: Guid(1ab9cf9598ff05341bfd93282be944fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/GreenNinja/SeparateAnim/Attack.png using Guid(1ab9cf9598ff05341bfd93282be944fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d3de53fb74c0e9506f6c21d86e9e0f') in 0.011578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@3x.png
+  artifactKey: Guid(68e5a78013e33f247822a837e55b0ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@3x.png using Guid(68e5a78013e33f247822a837e55b0ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a62465f25cfbc5c8ebffd7559d9143') in 0.051053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/NinjaAdventure/FX/Particle/Bamboo.png
+  artifactKey: Guid(0a6c5b1f2f3c7e547b5aeb8725dd64ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/FX/Particle/Bamboo.png using Guid(0a6c5b1f2f3c7e547b5aeb8725dd64ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67150ac027206f2f0b291da076e4405a') in 0.012863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/NinjaAdventure/HUD/Arrow.png
+  artifactKey: Guid(137fc71d079517849bce4a439404d5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/HUD/Arrow.png using Guid(137fc71d079517849bce4a439404d5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1a5e2ab8f563c8da022fea019ada86') in 0.011676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/RedSamurai/SeparateAnim/Attack.png
+  artifactKey: Guid(72ad088e5e7606f4c9a1e03034043779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/RedSamurai/SeparateAnim/Attack.png using Guid(72ad088e5e7606f4c9a1e03034043779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea8c433a63454801c0fab60ca0d8fb9') in 0.012201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@2x.png
+  artifactKey: Guid(d6a44ab95b0def041a7929981a2c23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@2x.png using Guid(d6a44ab95b0def041a7929981a2c23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2194572cf22b747a78d576e92b54978c') in 0.032468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@4x.png
+  artifactKey: Guid(5430b5412bcac5b4986be0a875a5e978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@4x.png using Guid(5430b5412bcac5b4986be0a875a5e978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646546796621784560ddcfc5f774135a') in 0.030056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Princess/SeparateAnim/Attack.png
+  artifactKey: Guid(964d4ab77973fca4881f800c486246ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Princess/SeparateAnim/Attack.png using Guid(964d4ab77973fca4881f800c486246ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e1ea9a69fdc03e810c82a428663401') in 0.012278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NinjaAdventure/HUD/Dialog/ChoiceBox.png
+  artifactKey: Guid(d25278f0f3fe4e2448681ab66c18d77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/HUD/Dialog/ChoiceBox.png using Guid(d25278f0f3fe4e2448681ab66c18d77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5db563bc862d6b500bc85f2ec2ebdf') in 0.012818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@2x.png
+  artifactKey: Guid(0779ad3feec52124e97114bcbb12ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@2x.png using Guid(0779ad3feec52124e97114bcbb12ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1638f6c618f0bcb1281473bf4d359dd5') in 0.067600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/MaskFrog/SeparateAnim/Attack.png
+  artifactKey: Guid(e02b28f26f412de43a7075e6a32d2a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/MaskFrog/SeparateAnim/Attack.png using Guid(e02b28f26f412de43a7075e6a32d2a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0caabecf1b1996f65756df727cba280d') in 0.011309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/NinjaAdventure/Actor/Boss/GiantRacoonGold/Attack.png
+  artifactKey: Guid(b8c578c06f3d99c48b75b35fd9461d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Boss/GiantRacoonGold/Attack.png using Guid(b8c578c06f3d99c48b75b35fd9461d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab29e0f11e48801e7bcb63b154477400') in 0.013049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/Monk/SeparateAnim/Attack.png
+  artifactKey: Guid(5dedb749cab4df846ae33baf07748490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/Monk/SeparateAnim/Attack.png using Guid(5dedb749cab4df846ae33baf07748490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160f5e435093e87e3967a1549cab5342') in 0.010820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/GrayNinja/SeparateAnim/Attack.png
+  artifactKey: Guid(0f253561ad9aff34da31d98fb332c0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/GrayNinja/SeparateAnim/Attack.png using Guid(0f253561ad9aff34da31d98fb332c0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24972782199c02b4747049825ad32938') in 0.010973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NinjaAdventure/Actor/Monsters/Beast.png
+  artifactKey: Guid(0824dff28b9c21b4ba4fc040c1353910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Monsters/Beast.png using Guid(0824dff28b9c21b4ba4fc040c1353910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b88b55b65629eabb389dcf2717abca') in 0.013556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NinjaAdventure/Backgrounds/Animated/Waterfall/BottomSheet16x16.png
+  artifactKey: Guid(2be086590c7bcb44d83484c0a5166e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Backgrounds/Animated/Waterfall/BottomSheet16x16.png using Guid(2be086590c7bcb44d83484c0a5166e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231043bc96b5e979322b1a75c3165245') in 0.013050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NinjaAdventure/Actor/Characters/GoldKnight/SeparateAnim/Attack.png
+  artifactKey: Guid(b33373c845150c448b1d741d3047e11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NinjaAdventure/Actor/Characters/GoldKnight/SeparateAnim/Attack.png using Guid(b33373c845150c448b1d741d3047e11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7649af5b2a615234f8ed4bfc978250') in 0.013241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@4x.png
+  artifactKey: Guid(748ae8b33df036b46a86e0387f1602cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@4x.png using Guid(748ae8b33df036b46a86e0387f1602cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1b4449648e1517a428020e5a97f24a') in 0.145794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Edge@3x.png
+  artifactKey: Guid(0da63bf69e254aa4a83c345c3de497c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Edge@3x.png using Guid(0da63bf69e254aa4a83c345c3de497c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53ccd51e30f9557dc2095ab0693b0b9') in 0.050521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Vertex.png
+  artifactKey: Guid(31f371f2dfe50c34081023094aed72c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Vertex.png using Guid(31f371f2dfe50c34081023094aed72c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af6d00209f99cb1ab09b2f05ccdf264') in 0.031488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Vertex@2x.png
+  artifactKey: Guid(a0c33b3a6e0728343b29883d739f1322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Vertex@2x.png using Guid(a0c33b3a6e0728343b29883d739f1322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2c363b9965d116d7ddcc0ed26ee08b') in 0.037861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Edge@3x.png
+  artifactKey: Guid(374643871a39dd44880f1c0eff14f46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Edge@3x.png using Guid(374643871a39dd44880f1c0eff14f46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f33776c2faf04917c752722c104d12c') in 0.034070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Vertex@3x.png
+  artifactKey: Guid(66fa19194577350438c952106f661c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Vertex@3x.png using Guid(66fa19194577350438c952106f661c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acdf6a7b557f1ff365237f35049439b') in 0.098235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Edge.png
+  artifactKey: Guid(1af9d2e44ecf3a2468601c9071df581f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Edge.png using Guid(1af9d2e44ecf3a2468601c9071df581f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31a1cfb83d27531b972345ac04842d1') in 0.022522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Vertex@2x.png
+  artifactKey: Guid(8afb57fea8c4eea4a8085e91c810380b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Vertex@2x.png using Guid(8afb57fea8c4eea4a8085e91c810380b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd810785824feeea5c381e8331870906e') in 0.057751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Edge@2x.png
+  artifactKey: Guid(3b4e88f5705085042a95960cdcef2561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Edge@2x.png using Guid(3b4e88f5705085042a95960cdcef2561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1a80d58607ff79aa1d73876b87a503') in 0.026370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Edge@4x.png
+  artifactKey: Guid(3458c119c69e9bc4f9647599c2901dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Edge@4x.png using Guid(3458c119c69e9bc4f9647599c2901dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f88f46f37561fb8974a72c212ca7c36') in 0.043740 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
